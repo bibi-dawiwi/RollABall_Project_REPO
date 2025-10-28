@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     public Vector2 moveInput; //Almacén del input de movimiento de los periféricos que usamos para jugar
 
     [Header("Jump Parameters")]
-    public float jumpForce = 6;
+    public float jumpForce = 8;
     public bool isGrounded = true;
 
     [Header("Respawn System")]
